@@ -14,6 +14,9 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx= SpringApplication.run(DemoApplication.class, args);
 		Alien a=ctx.getBean(Alien.class);
+		System.out.println("test");
+		System.out.println("test2");
+		System.out.println("test3");
 		a.show();
 	}
 
